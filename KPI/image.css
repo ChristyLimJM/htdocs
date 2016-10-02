@@ -1,0 +1,36 @@
+<style type="text/css">
+.overlay {
+  background: #999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  z-index: 1;
+}
+.popup {
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1000;
+  
+}
+.popup img {
+  display: block;
+  margin-bottom: 15px;
+  width: 500px; 
+    height: 500px;
+  
+}
+.popup div.action {
+  text-align: right;
+}
+.popup div.action input {
+  background: red;
+  color: white;
+  border: red;
+}
